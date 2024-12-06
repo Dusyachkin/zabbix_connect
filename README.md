@@ -1,4 +1,4 @@
-# Zabbix_connect
+# Zabbix connect RDP | SSH | Telnet
 ## Настройка на стороне Zabbix
 В Zabbix используется Type - URL. Все настройки производились на Zabbix 7.0.0.
 
