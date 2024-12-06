@@ -6,6 +6,7 @@
  Administration -> General  -> Other
 
 ![image](https://github.com/user-attachments/assets/679c2814-426a-4a6a-a603-011656e97115)
+
  2. Добавить новый script
 Alerts -> Scripts -> Create script
 
