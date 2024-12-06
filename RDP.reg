@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\rdp]
+@="URL:Remote Desktop Protocol <URL:Remote%20Desktop%20Protocol> "
+"EditFlags"=dword:00000002
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\rdp\shell]
+ 
+[HKEY_CLASSES_ROOT\rdp\shell\open]
+ 
+[HKEY_CLASSES_ROOT\rdp\shell\open\command]
+@="cmd /V:ON  /c setlocal && set url=%1 && set url=!url:rdp://=! && set url=!url:/=! && start mstsc.exe /v:!url!"
